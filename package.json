@@ -1,0 +1,30 @@
+{
+  "name": "@monis_azeem/notifs-pkg",
+  "version": "0.0.1",
+  "description": "A notification package that can be used in any application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checklint": "eslint .",
+    "fixlint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "Monis Azeem <monisazeem@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1"
+  },
+  "dependencies": {
+    "bullmq": "^5.65.1",
+    "zod": "^4.1.13"
+  }
+}
