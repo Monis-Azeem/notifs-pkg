@@ -2,16 +2,27 @@
   "name": "@monis_azeem/notifs-pkg",
   "version": "0.0.1",
   "description": "A notification package that can be used in any application",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup",
     "checklint": "eslint .",
     "fixlint": "eslint . --fix"
   },
-  "keywords": [],
+  "keywords": [
+    "notification-package",
+    "bullmq",
+    "redis"
+  ],
   "author": "Monis Azeem <monisazeem@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monis-Azeem/notifs-pkg.git"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "eslint": "^9.39.1",
@@ -20,11 +31,16 @@
     "globals": "^16.5.0",
     "jiti": "^2.6.1",
     "prettier": "^3.7.4",
+    "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.48.1"
   },
   "dependencies": {
     "bullmq": "^5.65.1",
     "zod": "^4.1.13"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Monis-Azeem/notifs-pkg/issues"
+  },
+  "homepage": "https://github.com/Monis-Azeem/notifs-pkg"
 }

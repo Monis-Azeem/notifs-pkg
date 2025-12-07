@@ -1,1 +1,1 @@
-export * from "./send-email.ts";
+export * from "./NotificationManager.ts";
